@@ -5,6 +5,7 @@ import show_food from '../resources/show_food.gif'
 import food from '../resources/food.png'
 import Timer from './Timer';
 import classNames from 'classnames';
+import Status from './Status'
 
 const Home = () => {
     const [gifUrl, setGifUrl] = useState(stdby);
@@ -83,7 +84,10 @@ const Home = () => {
                 Study Neko
             </h1>
 
-            <div class='w-full flex justify-center items-end'>
+            <div class='w-full flex flex-col justify-center items-center'>
+                <Status
+                    earnings = {earnings}
+                />
                 <img src={gifUrl} class='w-1/2 md:w-1/3 lg:w-1/4'/>
             </div>
 
@@ -107,7 +111,6 @@ const Home = () => {
             
             <br/>
             <Timer earnings={earnings} setEarnings={setEarnings} class='object-center'/>
-            <h1 class='text-center'>$ {earnings}</h1>
         </div>
     )
 }

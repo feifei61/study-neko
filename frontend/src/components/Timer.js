@@ -1,8 +1,16 @@
 import React, { useState, useEffect } from 'react'
 
+const pomodoro = [
+  {label: 'focus', duration: 60*25},
+  {label: 'short break', duration: 60*5},
+  {label: 'long break', duration: 60*15},
+];
+
 const Timer = ({earnings, setEarnings}) => {
-    const [timeLeft, setTimeLeft] = useState(25 * 60)
+    const [timeLeft, setTimeLeft] = useState(pomodoro[0].duration)
     const [isRunning, setIsRunning] = useState(false)
+    const [pCount, setPCount] = useState(0)
+    const [currentBlock, setCurrentBlock] = useState(pomodoro[1].duration)
 
     const minutes = Math.floor(timeLeft / 60).toString().padStart(2, '0');
     const seconds = (timeLeft % 60).toString().padStart(2, '0');
@@ -20,6 +28,22 @@ const Timer = ({earnings, setEarnings}) => {
 
         } else if (timeLeft === 0) {
           setIsRunning(false);
+
+          //go to next interval
+          if (currentBlock === pomodoro[0].label) {
+            setPCount(pCount + 1)
+            if (pCount === 4) {
+              setCurrentBlock(pomodoro[2].label)
+              setTimeLeft(pomodoro[2].duration)
+              setPCount(0)
+            } else {
+              setCurrentBlock(pomodoro[1].label)
+              setTimeLeft(pomodoro[1].duration)
+            }
+          } else {
+            setCurrentBlock(pomodoro[0].label)
+            setTimeLeft(pomodoro[0].duration)
+          }
         }
     
         return () => clearInterval(intervalId);
