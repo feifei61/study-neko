@@ -1,18 +1,11 @@
 import logo from './logo.svg';
-import Home from './pages/Home.js'
-import { BrowserRouter as Router, Routes, Route }
-    from 'react-router-dom';
-import Login from './pages/Login.js';
+import './App.css';
+import Home from './components/Home.js'
 
 function App() {
   return (
-    <div className="App">
-    <Router>
-      <Routes>
-        <Route exact path='/' element={<Home />} />
-        <Route path='/login' element={<Login />} />
-      </Routes>
-    </Router>
+    <div className="App" class='bg-rose-200'>
+      <Home/>
     </div>
   );
 }
