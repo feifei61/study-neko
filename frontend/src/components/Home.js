@@ -18,12 +18,12 @@ const Home = () => {
 
     const modal = () => {
         return (
-            <div class='absolute flex justify-center items-center'>
-                <div class="w-full p-4 overflow-x-hidden overflow-y-auto max-h-full">
+            <div class='fixed flex h-screen w-screen justify-center items-center'>
+                <div class="w-1/4 p-4 overflow-x-hidden overflow-y-auto max-h-full">
                     <div class="relative w-full max-w-2xl max-h-full border-4 rounded-lg border-amber-500">
                         <div class="relative bg-amber-100 rounded">
                             <div class="pt-5 px-20">
-                                <p class="font-outfit text-left text-base leading-loose text-amber-700">
+                                <p class="font-outfit text-center text-base leading-loose text-amber-700">
                                     Insufficient coins :(
                                 </p>
                             </div>
@@ -106,7 +106,7 @@ const Home = () => {
             </div>
             
             <br/>
-            <Timer earnings={earnings} setEarnings={setEarnings} class='object-center'/>
+            <Timer earnings={earnings} setEarnings={setEarnings}/>
             <h1 class='text-center'>$ {earnings}</h1>
         </div>
     )
