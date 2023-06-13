@@ -3,9 +3,11 @@ import stdby from '../resources/Neko_Standby.gif'
 import eat from '../resources/Neko_eat.gif'
 import show_food from '../resources/show_food.gif'
 import food from '../resources/food.png'
-import Timer from './Timer';
+import Timer from '../components/Timer';
 import classNames from 'classnames';
-import Status from './Status'
+import Status from '../components/Status'
+import {Person20Filled} from '@fluentui/react-icons'
+import { NavLink as Link } from "react-router-dom";
 
 const Home = () => {
     const [gifUrl, setGifUrl] = useState(stdby);
@@ -78,8 +80,15 @@ const Home = () => {
     }
 
     return (
-        <div class='h-screen justify-center items-center'>
+        <div class='h-screen justify-center items-center bg-rose-200'>
             {showModal && modal()}
+
+            <Link to="/login" activeStyle className='absolute flex justify-end w-full opacity-50'>
+                <div className='m-5 w-10 h-10 rounded-lg bg-gray-500 flex justify-center items-center'>
+                    <Person20Filled className='text-white w-6 h-6'/>
+                </div>
+            </Link>
+
             <h1 class='text-5xl text-center py-10 text-zinc-500 font-outfit'>
                 Study Neko
             </h1>
