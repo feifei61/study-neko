@@ -4,7 +4,7 @@ exports.id = 931;
 exports.ids = [931];
 exports.modules = {
 
-/***/ 252:
+/***/ 40252:
 /***/ ((module) => {
 
 "use strict";
@@ -12,7 +12,7 @@ module.exports = require("next/dist/compiled/cookie");
 
 /***/ }),
 
-/***/ 7999:
+/***/ 97999:
 /***/ ((module) => {
 
 "use strict";
@@ -20,7 +20,7 @@ module.exports = require("next/dist/compiled/path-to-regexp");
 
 /***/ }),
 
-/***/ 8038:
+/***/ 18038:
 /***/ ((module) => {
 
 "use strict";
@@ -28,7 +28,7 @@ module.exports = require("next/dist/compiled/react");
 
 /***/ }),
 
-/***/ 8704:
+/***/ 98704:
 /***/ ((module) => {
 
 "use strict";
@@ -36,7 +36,7 @@ module.exports = require("next/dist/compiled/react-dom/server-rendering-stub");
 
 /***/ }),
 
-/***/ 7897:
+/***/ 97897:
 /***/ ((module) => {
 
 "use strict";
@@ -44,7 +44,7 @@ module.exports = require("next/dist/compiled/react-server-dom-webpack/client");
 
 /***/ }),
 
-/***/ 6786:
+/***/ 56786:
 /***/ ((module) => {
 
 "use strict";
@@ -52,7 +52,7 @@ module.exports = require("next/dist/compiled/react/jsx-runtime");
 
 /***/ }),
 
-/***/ 1090:
+/***/ 61090:
 /***/ ((module) => {
 
 "use strict";
@@ -60,7 +60,7 @@ module.exports = require("next/dist/server/app-render/get-segment-param.js");
 
 /***/ }),
 
-/***/ 8652:
+/***/ 78652:
 /***/ ((module) => {
 
 "use strict";
@@ -76,7 +76,7 @@ module.exports = require("next/dist/shared/lib/app-router-context.js");
 
 /***/ }),
 
-/***/ 9274:
+/***/ 69274:
 /***/ ((module) => {
 
 "use strict";
@@ -84,7 +84,7 @@ module.exports = require("next/dist/shared/lib/hooks-client-context.js");
 
 /***/ }),
 
-/***/ 4964:
+/***/ 24964:
 /***/ ((module) => {
 
 "use strict";
@@ -92,7 +92,7 @@ module.exports = require("next/dist/shared/lib/router-context.js");
 
 /***/ }),
 
-/***/ 1751:
+/***/ 11751:
 /***/ ((module) => {
 
 "use strict";
@@ -100,7 +100,7 @@ module.exports = require("next/dist/shared/lib/router/utils/add-path-prefix.js")
 
 /***/ }),
 
-/***/ 3938:
+/***/ 23938:
 /***/ ((module) => {
 
 "use strict";
@@ -108,7 +108,7 @@ module.exports = require("next/dist/shared/lib/router/utils/format-url.js");
 
 /***/ }),
 
-/***/ 1668:
+/***/ 21668:
 /***/ ((module) => {
 
 "use strict";
@@ -124,7 +124,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-bot.js");
 
 /***/ }),
 
-/***/ 1109:
+/***/ 71109:
 /***/ ((module) => {
 
 "use strict";
@@ -132,7 +132,7 @@ module.exports = require("next/dist/shared/lib/router/utils/is-local-url.js");
 
 /***/ }),
 
-/***/ 8854:
+/***/ 28854:
 /***/ ((module) => {
 
 "use strict";
@@ -140,7 +140,7 @@ module.exports = require("next/dist/shared/lib/router/utils/parse-path.js");
 
 /***/ }),
 
-/***/ 3297:
+/***/ 93297:
 /***/ ((module) => {
 
 "use strict";
@@ -148,7 +148,7 @@ module.exports = require("next/dist/shared/lib/router/utils/remove-trailing-slas
 
 /***/ }),
 
-/***/ 7782:
+/***/ 87782:
 /***/ ((module) => {
 
 "use strict";
@@ -164,7 +164,7 @@ module.exports = require("next/dist/shared/lib/server-inserted-html.js");
 
 /***/ }),
 
-/***/ 9232:
+/***/ 59232:
 /***/ ((module) => {
 
 "use strict";
@@ -172,7 +172,7 @@ module.exports = require("next/dist/shared/lib/utils.js");
 
 /***/ }),
 
-/***/ 1017:
+/***/ 71017:
 /***/ ((module) => {
 
 "use strict";
@@ -180,7 +180,7 @@ module.exports = require("path");
 
 /***/ }),
 
-/***/ 7310:
+/***/ 57310:
 /***/ ((module) => {
 
 "use strict";
@@ -188,7 +188,7 @@ module.exports = require("url");
 
 /***/ }),
 
-/***/ 6646:
+/***/ 56646:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -216,30 +216,30 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   staticGenerationBailout: () => (/* reexport safe */ next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__.staticGenerationBailout),
 /* harmony export */   tree: () => (/* binding */ tree)
 /* harmony export */ });
-/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(4592);
+/* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(54592);
 /* harmony import */ var next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_app_router__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(6301);
+/* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(76301);
 /* harmony import */ var next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_layout_router__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(7431);
+/* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(57431);
 /* harmony import */ var next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_render_from_template_context__WEBPACK_IMPORTED_MODULE_2__);
-/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(2673);
+/* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(52673);
 /* harmony import */ var next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_error_boundary__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(94);
+/* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(30094);
 /* harmony import */ var next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_async_storage__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(4437);
+/* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(24437);
 /* harmony import */ var next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_request_async_storage__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(6127);
+/* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(46127);
 /* harmony import */ var next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_action_async_storage__WEBPACK_IMPORTED_MODULE_6__);
-/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(5486);
+/* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(45486);
 /* harmony import */ var next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_bailout__WEBPACK_IMPORTED_MODULE_7__);
-/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(6404);
+/* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(86404);
 /* harmony import */ var next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_static_generation_searchparams_bailout_provider__WEBPACK_IMPORTED_MODULE_8__);
-/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(2527);
+/* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(95486);
 /* harmony import */ var next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_searchparams_bailout_proxy__WEBPACK_IMPORTED_MODULE_9__);
-/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(3332);
+/* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(63332);
 /* harmony import */ var next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_dist_client_components_hooks_server_context__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(7902);
-/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(3099);
+/* harmony import */ var react_server_dom_webpack_server_edge__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(27902);
+/* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(93099);
 /* harmony import */ var next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(next_dist_server_app_render_rsc_preloads__WEBPACK_IMPORTED_MODULE_12__);
 
     const tree = {
@@ -247,9 +247,9 @@ __webpack_require__.r(__webpack_exports__);
         '',
         {
         children: ['__PAGE__', {}, {
-          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4894)), "/Users/fayechen/Desktop/portfolio/study-neko/src/app/page.tsx"],
+          page: [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 34894)), "/Users/fayechen/Desktop/portfolio/study-neko/src/app/page.tsx"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82819))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -258,9 +258,9 @@ __webpack_require__.r(__webpack_exports__);
         }]
       },
         {
-          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 4232)), "/Users/fayechen/Desktop/portfolio/study-neko/src/app/layout.tsx"],
+          'layout': [() => Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 54232)), "/Users/fayechen/Desktop/portfolio/study-neko/src/app/layout.tsx"],
           metadata: {
-    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 2819))).default(props))],
+    icon: [(async (props) => (await Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 82819))).default(props))],
     apple: [],
     openGraph: [],
     twitter: [],
@@ -296,14 +296,14 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
-/***/ 1894:
+/***/ 31894:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
-Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 9014))
+Promise.resolve(/* import() eager */).then(__webpack_require__.bind(__webpack_require__, 23582))
 
 /***/ }),
 
-/***/ 9014:
+/***/ 23582:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -316,9 +316,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: external "next/dist/compiled/react"
-var react_ = __webpack_require__(8038);
+var react_ = __webpack_require__(18038);
 ;// CONCATENATED MODULE: ./public/resources/Neko_Standby.gif
 /* harmony default export */ const Neko_Standby = ({"src":"/_next/static/media/Neko_Standby.a2e00a52.gif","height":2048,"width":2048,"blurWidth":0,"blurHeight":0});
 ;// CONCATENATED MODULE: ./public/resources/Neko_eat.gif
@@ -412,31 +412,62 @@ const Timer = ({ earnings , setEarnings  })=>{
 };
 /* harmony default export */ const components_Timer = (Timer);
 
+// EXTERNAL MODULE: ./node_modules/@mui/material/node/LinearProgress/index.js
+var LinearProgress = __webpack_require__(54003);
+var LinearProgress_default = /*#__PURE__*/__webpack_require__.n(LinearProgress);
+// EXTERNAL MODULE: ./node_modules/@mui/material/node/styles/index.js
+var styles = __webpack_require__(22166);
+;// CONCATENATED MODULE: ./src/components/Health.tsx
+
+
+
+
+const BorderLinearProgress = (0,styles.styled)((LinearProgress_default()))(({ theme  })=>({
+        height: 10,
+        borderRadius: 5
+    }));
+const Health = ({ health  })=>{
+    return /*#__PURE__*/ jsx_runtime_.jsx(BorderLinearProgress, {
+        variant: "determinate",
+        color: "success"
+    });
+};
+/* harmony default export */ const components_Health = (Health);
+
 ;// CONCATENATED MODULE: ./src/components/Status.tsx
 
-const Status = ({ earnings  })=>{
-    return /*#__PURE__*/ jsx_runtime_.jsx("div", {
-        className: "w-1/4 text-white font-outfit",
-        children: /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-            className: "w-10 bg-amber-400 text-center text-amber-700 font-semibold rounded border-2 border-amber-500",
-            children: [
-                /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
-                    children: [
-                        "$",
-                        " "
-                    ]
-                }),
-                earnings
-            ]
-        })
+
+const Status = ({ earnings , health  })=>{
+    return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+        className: "w-full text-white font-outfit flex justify-center gap-10 md:w-1/4 ",
+        children: [
+            /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
+                className: "w-10 bg-amber-400 text-center text-amber-700 font-semibold rounded border-2 border-amber-500",
+                children: [
+                    /*#__PURE__*/ (0,jsx_runtime_.jsxs)("span", {
+                        children: [
+                            "$",
+                            " "
+                        ]
+                    }),
+                    earnings
+                ]
+            }),
+            /*#__PURE__*/ jsx_runtime_.jsx("div", {
+                className: "self-center w-52",
+                children: /*#__PURE__*/ jsx_runtime_.jsx(components_Health, {
+                    health: health
+                })
+            })
+        ]
     });
 };
 /* harmony default export */ const components_Status = (Status);
 
 // EXTERNAL MODULE: ./node_modules/@fluentui/react-icons/lib/sizedIcons/chunk-8.js + 2 modules
-var chunk_8 = __webpack_require__(137);
+var chunk_8 = __webpack_require__(90137);
 // EXTERNAL MODULE: ./node_modules/next/link.js
-var next_link = __webpack_require__(1621);
+var next_link = __webpack_require__(31621);
 var link_default = /*#__PURE__*/__webpack_require__.n(next_link);
 ;// CONCATENATED MODULE: ./src/pages/home.tsx
 /* __next_internal_client_entry_do_not_use__ default auto */ 
@@ -453,6 +484,7 @@ const HomePage = ()=>{
     const [isPlaying, setIsPlaying] = (0,react_.useState)(false);
     const [earnings, setEarnings] = (0,react_.useState)(0);
     const [showModal, setShowModal] = (0,react_.useState)(false);
+    const [health, setHealth] = (0,react_.useState)(100);
     const treatPrice = 3;
     const mealPrice = 10;
     const feastPrice = 30;
@@ -523,7 +555,7 @@ const HomePage = ()=>{
         setEarnings(earnings - feastPrice);
     };
     return /*#__PURE__*/ (0,jsx_runtime_.jsxs)("div", {
-        className: "h-screen justify-center items-center bg-rose-200",
+        className: "md:h-screen justify-center items-center bg-rose-200",
         children: [
             showModal && modal(),
             /*#__PURE__*/ jsx_runtime_.jsx((link_default()), {
@@ -544,11 +576,12 @@ const HomePage = ()=>{
                 className: "w-full flex flex-col justify-center items-center",
                 children: [
                     /*#__PURE__*/ jsx_runtime_.jsx(components_Status, {
-                        earnings: earnings
+                        earnings: earnings,
+                        health: health
                     }),
                     /*#__PURE__*/ jsx_runtime_.jsx("img", {
                         src: gifUrl.src,
-                        className: "w-1/2 md:w-1/3 lg:w-1/4"
+                        className: "w-3/4 md:w-1/2 md:w-1/3 lg:w-1/4"
                     })
                 ]
             }),
@@ -613,7 +646,7 @@ const HomePage = ()=>{
             }),
             /*#__PURE__*/ jsx_runtime_.jsx("br", {}),
             /*#__PURE__*/ jsx_runtime_.jsx("div", {
-                className: "object-center",
+                className: "object-center pb-20 md:pb-12",
                 children: /*#__PURE__*/ jsx_runtime_.jsx(components_Timer, {
                     earnings: earnings,
                     setEarnings: setEarnings
@@ -627,7 +660,7 @@ const HomePage = ()=>{
 
 /***/ }),
 
-/***/ 4894:
+/***/ 34894:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 "use strict";
@@ -640,9 +673,9 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: external "next/dist/compiled/react/jsx-runtime"
-var jsx_runtime_ = __webpack_require__(6786);
+var jsx_runtime_ = __webpack_require__(56786);
 // EXTERNAL MODULE: ./node_modules/next/dist/build/webpack/loaders/next-flight-loader/module-proxy.js
-var module_proxy = __webpack_require__(1313);
+var module_proxy = __webpack_require__(21313);
 ;// CONCATENATED MODULE: ./src/pages/home.tsx
 
 const proxy = (0,module_proxy.createProxy)(String.raw`/Users/fayechen/Desktop/portfolio/study-neko/src/pages/home.tsx`)
@@ -675,7 +708,7 @@ function Home() {
 var __webpack_require__ = require("../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [405,464,234,905], () => (__webpack_exec__(6646)));
+var __webpack_exports__ = __webpack_require__.X(0, [405,464,54,905], () => (__webpack_exec__(56646)));
 module.exports = __webpack_exports__;
 
 })();

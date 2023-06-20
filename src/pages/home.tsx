@@ -13,8 +13,9 @@ import Link from 'next/link';
 const HomePage = () => {
     const [gifUrl, setGifUrl] = useState(stdby);
     const [isPlaying, setIsPlaying] = useState(false);
-    const [earnings, setEarnings] = useState(0)
+    const [earnings, setEarnings] = useState(0);
     const [showModal, setShowModal] = useState(false);
+    const [health, setHealth] = useState(100);
 
     const treatPrice = 3
     const mealPrice = 10
@@ -81,7 +82,7 @@ const HomePage = () => {
     }
 
     return (
-        <div className='h-screen justify-center items-center bg-rose-200'>
+        <div className='md:h-screen justify-center items-center bg-rose-200'>
             {showModal && modal()}
 
             <Link href='/login' className='absolute flex justify-end w-full opacity-50'>
@@ -97,8 +98,9 @@ const HomePage = () => {
             <div className='w-full flex flex-col justify-center items-center'>
                 <Status
                     earnings = {earnings}
+                    health = {health}
                 />
-                <img src={gifUrl.src} className='w-1/2 md:w-1/3 lg:w-1/4'/>
+                <img src={gifUrl.src} className='w-3/4 md:w-1/2 md:w-1/3 lg:w-1/4'/>
             </div>
 
             <div className='flex gap-3 justify-center'>
@@ -120,7 +122,7 @@ const HomePage = () => {
             </div>
             
             <br/>
-            <div className='object-center'>
+            <div className='object-center pb-20 md:pb-12'>
                 <Timer earnings={earnings} setEarnings={setEarnings}/>
             </div>
         </div>

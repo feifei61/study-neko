@@ -5,49 +5,49 @@ exports.id = 155;
 exports.ids = [155];
 exports.modules = {
 
-/***/ 7783:
+/***/ 97783:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/@edge-runtime/cookies");
 
 /***/ }),
 
-/***/ 8530:
+/***/ 28530:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/@opentelemetry/api");
 
 /***/ }),
 
-/***/ 4426:
+/***/ 54426:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/chalk");
 
 /***/ }),
 
-/***/ 252:
+/***/ 40252:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/cookie");
 
 /***/ }),
 
-/***/ 2196:
+/***/ 32196:
 /***/ ((module) => {
 
 module.exports = require("next/dist/compiled/ua-parser-js");
 
 /***/ }),
 
-/***/ 4021:
+/***/ 14021:
 /***/ ((module) => {
 
 module.exports = import("next/dist/compiled/@vercel/og/index.node.js");;
 
 /***/ }),
 
-/***/ 4007:
+/***/ 84007:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -73,12 +73,12 @@ __webpack_require__.d(favicon_next_metadata_namespaceObject, {
 });
 
 // EXTERNAL MODULE: ./node_modules/next/dist/server/node-polyfill-headers.js
-var node_polyfill_headers = __webpack_require__(5387);
+var node_polyfill_headers = __webpack_require__(35387);
 // EXTERNAL MODULE: ./node_modules/next/dist/server/future/route-modules/app-route/module.js
-var app_route_module = __webpack_require__(9267);
+var app_route_module = __webpack_require__(29267);
 var module_default = /*#__PURE__*/__webpack_require__.n(app_route_module);
 // EXTERNAL MODULE: ./node_modules/next/server.js
-var server = __webpack_require__(4664);
+var server = __webpack_require__(14664);
 ;// CONCATENATED MODULE: ./node_modules/next/dist/build/webpack/loaders/next-metadata-route-loader.js?page=%2Ffavicon.ico%2Froute&pageExtensions=tsx&pageExtensions=ts&pageExtensions=jsx&pageExtensions=js!./src/app/favicon.ico?__next_metadata__
 
 
@@ -135,7 +135,7 @@ const dynamic = 'force-static'
 var __webpack_require__ = require("../../webpack-runtime.js");
 __webpack_require__.C(exports);
 var __webpack_exec__ = (moduleId) => (__webpack_require__(__webpack_require__.s = moduleId))
-var __webpack_exports__ = __webpack_require__.X(0, [405,572], () => (__webpack_exec__(4007)));
+var __webpack_exports__ = __webpack_require__.X(0, [405,572], () => (__webpack_exec__(84007)));
 module.exports = __webpack_exports__;
 
 })();
