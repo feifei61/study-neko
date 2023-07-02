@@ -11,10 +11,9 @@ const Login = () => {
             <div className='h-screen bg-rose-200'>
                 <div className='flex flex-col justify-center h-full'>
                     <div className='font-outfit text-center text-amber-950 text-lg pb-10 pt-20'>Login</div>
-                    <form className='w-full border flex flex-col justify-center align-center'>
-                        <div className=''>
-                            <label>Email</label>
-                            <br/>
+                    <form className='flex flex-col justify-center align-center'>
+                        <div className='border'>
+                            <div>Email</div>
                             <input></input>
                         </div>
                         <div>

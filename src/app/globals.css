@@ -1,10 +1,15 @@
 
 @import url('https://fonts.googleapis.com/css?family=Outfit');
 @import url('https://fonts.googleapis.com/css?family=Righteous');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  font-family: Outfit;
+}
 
 /* :root {
   --foreground-rgb: 0, 0, 0;

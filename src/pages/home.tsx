@@ -85,11 +85,14 @@ const HomePage = () => {
         <div className='md:h-screen justify-center items-center bg-rose-200'>
             {showModal && modal()}
 
-            <Link href='/login' className='absolute flex justify-end w-full opacity-50'>
-                <div className='m-5 w-10 h-10 rounded-lg bg-gray-500 flex justify-center items-center'>
-                    <Person20Filled className='text-white w-6 h-6'/>
-                </div>
-            </Link>
+            
+            <div className='absolute flex justify-end w-full opacity-50'>
+                <Link href='/login'>
+                    <div className='m-5 w-10 h-10 rounded-lg bg-gray-500 flex justify-center items-center'>
+                        <Person20Filled className='text-white w-6 h-6'/>
+                    </div>
+                </Link>
+            </div>
 
             <h1 className='text-5xl text-center py-10 text-zinc-500 font-outfit'>
                 Study Neko
@@ -104,18 +107,18 @@ const HomePage = () => {
             </div>
 
             <div className='flex gap-3 justify-center'>
-                <button onClick={treat} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-bold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
-                    <img src={food.src} className='w-20 -mb-5'/>
+                <button onClick={treat} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-semibold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
+                    <img src={food.src} className='px-1 pb-2 w-20 -mb-5'/>
                     <div className='text-sm'>treat</div>
                     <div className='text-sm'>$3</div>
                 </button>
-                <button onClick={meal} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-bold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
-                    <img src={food.src} className='w-20 -mb-5'/>
+                <button onClick={meal} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-semibold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
+                    <img src={food.src} className='px-1 pb-2 w-20 -mb-5'/>
                     <div className='text-sm'>meal</div>
                     <div className='text-sm'>$10</div>
                 </button>
-                <button onClick={feast} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-bold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
-                    <img src={food.src} className='w-20 -mb-5'/>
+                <button onClick={feast} className='bg-amber-400 hover:bg-amber-200 font-outfit text-amber-700 font-semibold border-b-4 border-amber-500 hover:border-amber-400 rounded active:border-0'>
+                    <img src={food.src} className='px-1 pb-2 w-20 -mb-5'/>
                     <div className='text-sm'>FEAST</div>
                     <div className='text-sm'>$30</div>
                 </button>
