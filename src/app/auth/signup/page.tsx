@@ -12,16 +12,24 @@ const Login = () => {
     const handleSubmit = async (e: FormEvent<HTMLFormElement>) => {
         if (pwDontMatch) return
         e.preventDefault()
-        
-        const { result, error } = await signUp(email, pw);
 
-        if (error) {
-            return console.log(error)
+        const data = {
+            email: email,
+            password: pw,
         }
+        const res = await fetch(
+            '/api/register',
+            {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json'},
+                body: JSON.stringify(data)
+            }
+        )
 
-        // else successful
+        const result = await res.json()
         console.log(result)
-        router.push('/')
+        
+        // router.push('/')
     }
     
 
